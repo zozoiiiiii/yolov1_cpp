@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="src\detector.cpp" />
     <ClCompile Include="src\parser\ini_parser.cpp">
       <Filter>parser</Filter>
     </ClCompile>
@@ -37,10 +36,10 @@
     <ClCompile Include="src\utils\args_util.cpp">
       <Filter>utils</Filter>
     </ClCompile>
+    <ClCompile Include="src\yolo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\box.h" />
-    <ClInclude Include="src\detector.h" />
     <ClInclude Include="src\stb_image.h" />
     <ClInclude Include="src\stb_image_write.h" />
     <ClInclude Include="src\parser\ini_parser.h">
@@ -76,6 +75,7 @@
     <ClInclude Include="src\utils\args_util.h">
       <Filter>utils</Filter>
     </ClInclude>
+    <ClInclude Include="src\yolo.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="parser">

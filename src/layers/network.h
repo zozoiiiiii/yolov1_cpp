@@ -53,5 +53,7 @@ class NetWork
 public:
     static int get_network_output_size(network* pNet);
     static float* get_network_output(network* pNet);
+
+    static float* network_predict_cpu(network* net, float *input);
 };
 NS_JJ_END

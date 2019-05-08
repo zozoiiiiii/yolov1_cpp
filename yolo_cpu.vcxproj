@@ -147,7 +147,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\box.cpp" />
-    <ClCompile Include="src\detector.cpp" />
+    <ClCompile Include="src\yolo.cpp" />
     <ClCompile Include="src\layers\convolutional_layer.cpp" />
     <ClCompile Include="src\layers\layer.cpp" />
     <ClCompile Include="src\layers\maxpool_layer.cpp" />
@@ -163,7 +163,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\box.h" />
-    <ClInclude Include="src\detector.h" />
+    <ClInclude Include="src\yolo.h" />
     <ClInclude Include="src\layers\convolutional_layer.h" />
     <ClInclude Include="src\layers\layer.h" />
     <ClInclude Include="src\layers\maxpool_layer.h" />

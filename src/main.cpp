@@ -19,7 +19,7 @@ https://github.com/vipstone/faceai
 #include <stdlib.h>
 
 #include "box.h"
-#include "pthread.h"
+//#include "pthread.h"
 
 #include "detector.h"
 #include "utils/args_util.h"
